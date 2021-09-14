@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Is it sunny?</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <script
+      src="https://kit.fontawesome.com/5122a11b2d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-app">
+        <div class="transbox">
+          <div class="current-weather">
+            <strong id="temp"></strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> | <a href="#" id="fahrenheit-link">°F</a></span>
+          </div>
+        </div>
+        <div class="today-icon"><img src="" alt="" id="icon"></div>
+        <br />
+        <div class="today" id="condition"></div>
+         <div class="current-humidity">Humidity <span  id="humidity"></span>%</div>
+         <div class="current-windspeed">Windspeed <span id="windspeed"></span>km/h</div>
+        <h2 id="city"></h2>
+        <h3></h3>
+        <div class="search-bar">
+        <form id="city-search"> 
+          <div class="row">
+            <div class="col-8">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Type city.."
+              id="city-name"
+              autocomplete="off"
+            />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="btn btn-light" id="searchBtn">
+            </div>
+            </div>
+            </form>
+             
+              </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
+
+    </div>
+  </body>
+</html>
+          </div>
+      
