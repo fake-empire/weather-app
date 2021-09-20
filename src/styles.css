@@ -142,26 +142,24 @@ a {
   margin-bottom: -20px;
 }
 
-.day {
+.weather-forecast {
+  text-align: center;
   font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.weather-forecast-day {
   font-weight: 400;
-  color: white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
-.forecast-icon {
-  font-size: 30px;
-}
-
-.weekly-forecast {
-  margin-bottom: 20px;
-}
-
-.forecast {
-  font-family: "Josefin Sans", sans-serif;
+.weather-forecast-temp {
   font-weight: 200;
-  font-size: 15px;
-  color: white;
+  font-size: 13px;
+}
+
+.weather-forecast-temp-min {
+  opacity: 0.6;
 }
 
 .temp-type {
